@@ -3,7 +3,7 @@ import { Coords, drawProduct, drawTable, circleHover } from "./Classes.js";
 const pageDetailImageBlock = document.querySelector(".page-detail-image");
 const pageDetailImage = pageDetailImageBlock.querySelector("img");
 
-const coordinates = JSON.parse(localStorage.getItem("coordinates")) ? [] : null;
+const coordinates = JSON.parse(localStorage.getItem("coordinates")) ?? [];
 
 drawTable(coordinates);
 
