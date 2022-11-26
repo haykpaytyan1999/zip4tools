@@ -1,0 +1,32 @@
+@media (max-width: 1200px) {
+  .product-list .item {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1040px) {
+  .product-list .item,
+  .model-list .item {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 700px) {
+  .product-list .item,
+  .model-list .item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .product-list .item,
+  .model-list .item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-detail-block .page-detail-table {
+    display: none;
+  }
+}
